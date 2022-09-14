@@ -349,10 +349,6 @@ footer .logo {
     margin-bottom: 50px;
 }
 
-.section.team img {
-    margin-bottom: 30px;
-}
-
 .list.team {
     display:flex;
     gap: 30px;
@@ -407,6 +403,7 @@ footer .logo {
 
 .team-info-holder {
     padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .icon-social-links {
@@ -1124,4 +1121,8 @@ footer .logo {
 
 .wrap-button {
     text-align: center;
+}
+
+.contacts-list .list li:not(:last-child) {
+    margin-bottom: 9px;
 }
