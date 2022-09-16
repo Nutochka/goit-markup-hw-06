@@ -1069,10 +1069,13 @@ footer .logo {
     border-color: var(--accent-color);
 }
 
+.modal-input-textarea::placeholder {
+    color: rgba(117, 117, 117, 0.5);
+}
+
 .input-icon {
     fill: var(--title-text-color);
     position: absolute;
-    top: 11px;
     left: 12px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
